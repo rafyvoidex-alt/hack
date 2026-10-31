@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "midclient",
+  "version": "${version}",
+  "name": "MiD Client",
+  "description": "A clean, client-side utility and HUD mod for Minecraft 26.3.",
+  "authors": ["MiD"],
+  "contact": {
+    "sources": "https://fabricmc.net/develop/"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.mid.client.MiDClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": ">=0.162.0"
+  }
+}
